@@ -8,6 +8,7 @@
             int b = 2;
             int sum = a+b;
             Console.WriteLine(sum);
+            Console.WriteLine(add(a,b));
 
             var contact1 = new Contact("Nico","Stinkt");
         }
@@ -22,6 +23,11 @@
             { 
                 return false; 
             }
+        }
+
+        static int add(int a, int b)
+        {
+            return a + b;
         }
     }
 }
