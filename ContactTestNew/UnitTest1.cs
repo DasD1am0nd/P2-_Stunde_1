@@ -8,7 +8,7 @@ namespace ContactTestNew
         [SetUp]
         public void Setup()
         {
-            myContact = new Contact("Nico", "Stinkt", "ichmag@zuege.db", "32168");
+            myContact = new Contact("Nico", "Stinkt", "ichmag@züge.db", "32168");
         }
 
         [Test]
