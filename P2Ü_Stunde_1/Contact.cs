@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace P2Ü_Stunde_1
+﻿namespace P2Ü_Stunde_1
 {
     public class Contact
     {
@@ -53,7 +47,7 @@ namespace P2Ü_Stunde_1
             return $"Firstname: {FirstName}, Lastname: {LastName}, Email: {Email}, Telefonummer: {PhoneNumber}";
 
         }
-        
+
         //Mit override wird ToString() aus Superklasse Object überschrieben
         public override string ToString()
         {

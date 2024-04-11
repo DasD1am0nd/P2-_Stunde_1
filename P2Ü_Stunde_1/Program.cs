@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace P2Ü_Stunde_1
+﻿namespace P2Ü_Stunde_1
 {
     public class Program
     {
@@ -8,11 +6,11 @@ namespace P2Ü_Stunde_1
         {
             int a = 1;
             int b = 2;
-            int sum = a+b;
+            int sum = a + b;
             Console.WriteLine(sum);
-            Console.WriteLine(add(a,b));
+            Console.WriteLine(add(a, b));
 
-            var contact1 = new Contact("Nico","Stinkt","ichmag@züge.db","32168");
+            var contact1 = new Contact("Nico", "Stinkt", "ichmag@züge.db", "32168");
             //contact1.FirstName = "Olga"; //Geht nicht da FirstName privat
             //contact1.NickName = ""; //Exception wird getriggered
             contact1.NickName = "Roblox Mann";
@@ -32,7 +30,7 @@ namespace P2Ü_Stunde_1
                 new Contact("Nico","Stinkt","ichmag@züge.db","32168"),
                 new Contact("Olchi", "Stinkt", "ichmag@muell.halde", "32168"),
                 new Contact("Grinch","Stinkt","ichmag@weihnachten.xmas","32168")
-                }; 
+                };
 
             Contact myContact = contacts[0];
             myContact.LastName = "stinkt nicht mehr";
@@ -42,9 +40,9 @@ namespace P2Ü_Stunde_1
             contacts2[0].LastName = "stinkt nicht mehr";
             */
 
-            foreach(var contact in contacts)
+            foreach (var contact in contacts)
             {
-                if(contact.FirstName.Contains(input))
+                if (contact.FirstName.Contains(input))
                 {
                     Console.WriteLine(contact.FormatString());
                     Console.WriteLine(contact.ToString());
@@ -58,9 +56,9 @@ namespace P2Ü_Stunde_1
             {
                 return true;
             }
-            else 
-            { 
-                return false; 
+            else
+            {
+                return false;
             }
         }
 
