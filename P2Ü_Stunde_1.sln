@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Ü_Stunde_1", "P2Ü_Stunde_1\P2Ü_Stunde_1.csproj", "{59E04B1B-FEB4-4B34-AD37-EA55D8F284AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2Ü_Stunde_1", "P2Ü_Stunde_1\P2Ü_Stunde_1.csproj", "{59E04B1B-FEB4-4B34-AD37-EA55D8F284AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactTestNew", "ContactTestNew\ContactTestNew.csproj", "{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{59E04B1B-FEB4-4B34-AD37-EA55D8F284AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59E04B1B-FEB4-4B34-AD37-EA55D8F284AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59E04B1B-FEB4-4B34-AD37-EA55D8F284AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
