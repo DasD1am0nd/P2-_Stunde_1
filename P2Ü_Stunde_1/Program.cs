@@ -44,7 +44,11 @@ namespace P2Ü_Stunde_1
 
             foreach(var contact in contacts)
             {
-                Console.WriteLine(contact.FirstName);
+                if(contact.FirstName.Contains(input))
+                {
+                    Console.WriteLine(contact.FormatString());
+                    Console.WriteLine(contact.ToString());
+                }
             }
         }
 

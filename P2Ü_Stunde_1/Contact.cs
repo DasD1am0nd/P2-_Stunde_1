@@ -47,5 +47,17 @@ namespace P2Ü_Stunde_1
                 return $"firstname: {FirstName}, lastname: {LastName}";
             }
         }
+
+        public string FormatString()
+        {
+            return $"Firstname: {FirstName}, Lastname: {LastName}, Email: {Email}, Telefonummer: {PhoneNumber}";
+
+        }
+        
+        //Mit override wird ToString() aus Superklasse Object überschrieben
+        public override string ToString()
+        {
+            return $"Firstname: {FirstName}, Lastname: {LastName}, Email: {Email}, Telefonummer: {PhoneNumber}";
+        }
     }
 }
