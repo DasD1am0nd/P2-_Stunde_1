@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2Ü_Stunde_1", "P2Ü_Stund
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactTestNew", "ContactTestNew\ContactTestNew.csproj", "{AB1EC21F-5567-4E3C-9E84-2AD877437AF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uebung_1", "Uebung_1\Uebung_1.csproj", "{41375531-D1B0-4C6F-91A6-21E41EE20E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrom", "Uebung_1\Palindrom.csproj", "{41375531-D1B0-4C6F-91A6-21E41EE20E2E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caesar_chiffre", "caesar_chiffre\caesar_chiffre.csproj", "{AEC2E29F-800C-40FE-A482-B9218A17A089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fahrzeugverleih Teil A", "Fahrzeugverleih Teil A\Fahrzeugverleih Teil A.csproj", "{27FEC18A-70DA-450D-8E5E-B0D3924FD517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fahrzeugverleih Teil A", "Fahrzeugverleih Teil A\Fahrzeugverleih Teil A.csproj", "{27FEC18A-70DA-450D-8E5E-B0D3924FD517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarTest", "CarTest\CarTest.csproj", "{E513012D-EBDE-4C0C-855C-75F5F23835E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarTest", "CarTest\CarTest.csproj", "{E513012D-EBDE-4C0C-855C-75F5F23835E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,11 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Palindrom();
-        }
-
-        static void Palindrom()
-        {
             Console.WriteLine("Palindrom:");
             string? input = Console.ReadLine();
             char[] inputArray = input.ToCharArray();
