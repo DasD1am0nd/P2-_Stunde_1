@@ -23,7 +23,7 @@
             foreach (char c in textLetters)
             {
                 asciichar = (int)c;
-                asciichar = asciichar+inputRotations;
+                asciichar = asciichar + inputRotations;
                 output += (char)asciichar;
             }
             Console.WriteLine(output);

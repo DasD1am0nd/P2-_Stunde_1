@@ -1,5 +1,3 @@
-using P2Ü_Stunde_1;
-
 namespace ContactTestNew
 {
     public class Tests
